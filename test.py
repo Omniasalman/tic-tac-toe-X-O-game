@@ -104,7 +104,9 @@ def start_new_game():
 window =Tk()
 window.title("tic-tac-toe")
 
+#players variable create to storelist of player X, O
 players=["X","O"]
+#player variable to store the plyer how will start the game random
 player=random.choice(players)
 game_btns=[
     [0,0,0],
